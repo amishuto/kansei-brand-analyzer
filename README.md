@@ -47,3 +47,39 @@ Sechack365エントリー用の感性語分析ツール（Streamlitアプリ）
 データサイエンスは勉強しながらの進行となりますが、今後の研究につなげていきます。
 
 Sechack365でこの仮説や実装をブラッシュアップし、人とシステムの橋渡しとなる技術を育てていきたいと思っています。
+
+
+
+⸻
+
+使い方（ローカル環境での実行手順）
+
+以下の手順でローカルにて動作確認できます。
+
+✅ 動作確認済み環境
+	•	Python 3.9 以上
+	•	pip が使用可能な状態
+	•	MacOS または同等の環境
+
+1. リポジトリをクローン
+
+git clone https://github.com/amishuto/kansei-brand-analyzer.git
+cd kansei-brand-analyzer
+
+2. 必要なパッケージをインストール
+
+pip install -r requirements.txt
+
+3. アプリを起動
+
+streamlit run app.py
+
+4. ブラウザで表示
+
+自動的にブラウザが開かない場合は、以下のURLにアクセスしてください：
+
+http://localhost:8501
+
+📝 注意点
+	•	グラフ表示の一部に日本語フォント（ヒラギノ）が必要です。文字化けが起きる場合は app.py のフォントパスを修正してください。
+	•	kansei_dict_.csv（感性語辞書）はすでに含まれています。
