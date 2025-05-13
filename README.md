@@ -65,20 +65,20 @@ Markdownのコードブロックをきれいに表示するには、開きと閉
 	•	MacOS または同等の環境
 
 1. リポジトリをクローン
-
+```bash
 git clone https://github.com/amishuto/kansei-brand-analyzer.git
 cd kansei-brand-analyzer
 
 2. 必要なパッケージをインストール
-
+```bash
 pip install -r requirements.txt
 
 3. アプリを起動
-
+```bash
 streamlit run app.py
 
 4. ブラウザで表示
 
 自動的にブラウザが開かない場合は、以下のURLにアクセスしてください：
-
+```bash
 http://localhost:8501
