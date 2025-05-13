@@ -27,9 +27,11 @@ Sechack365エントリー用の感性語分析ツール（Streamlitアプリ）
 1. 必要なライブラリをインストール：
    ```bash
    pip install -r requirements.txt
+   
 2. アプリを起動：
-   ```bash
-  　streamlit run app.py
+    ```bash
+   streamlit run app.py
+   
 3. ブラウザが開き、感性語の選択・ブランド評価が可能になります。
 
 今後の展望
