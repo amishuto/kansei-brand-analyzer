@@ -49,15 +49,6 @@ Sechack365エントリー用の感性語分析ツール（Streamlitアプリ）
 Sechack365でこの仮説や実装をブラッシュアップし、人とシステムの橋渡しとなる技術を育てていきたいと思っています。
 
 
- 構成ファイル
-
-kansei-brand-analyzer/
-├── app.py                  # メインのStreamlitアプリ
-├── kansei_dict_.csv        # 感性語辞書データ
-├── requirements.txt        # 必要なパッケージ
-└── images/
-    └── sample_ui.png       # 使用例スクリーンショット
-
  補足
 	•	初心者が制作した Version 1 のプロトタイプです。
 	•	現時点ではローカル環境での動作確認用であり、今後の改良・発展を前提としています。
